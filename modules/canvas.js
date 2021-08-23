@@ -54,7 +54,7 @@ export default class PictureCanvas {
  * @param {PictureCanvas} canvas
  * @param {number} scale
  */
-function drawPicture(picture, canvas, scale) {
+export function drawPicture(picture, canvas, scale) {
   canvas.width = picture.width * scale;
   canvas.height = picture.height * scale;
   let cx = canvas.getContext("2d");

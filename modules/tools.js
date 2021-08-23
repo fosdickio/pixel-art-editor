@@ -57,7 +57,7 @@ const around = [
  * that have the same color. "Adjacent" means directly horizontally or
  * vertically adjacent (not diagonally).
  *
- * The array of drawn pixels doubles as the function’s work list. For each
+ * The array of drawn pixels doxubles as the function’s work list. For each
  * pixel reached, we have to see whether any adjacent pixels have the same
  * color and haven’t already been painted over. The loop counter lags behind
  * the length of the drawn array as new pixels are added. Any pixels ahead of
