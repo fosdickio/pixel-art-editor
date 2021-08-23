@@ -2,6 +2,8 @@
 
 Pixel Art Editor is a pixel drawing program, where you can modify a picture pixel-by-pixel. This is done by manipulating a zoomed-in view of the picture (shown as a grid of colored squares). You can use the program to open image files, scribble on them with your mouse/touch device, and save them.
 
+![Pixel Art Editor](./pixel-art-editor.png)
+
 ## Instructions
 
 Install and run an HTTP server. Below is provided as an example, but others can be used.
